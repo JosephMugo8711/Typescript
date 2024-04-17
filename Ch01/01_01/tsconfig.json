@@ -1,0 +1,8 @@
+// Json configuration object
+
+{
+    "compilerOptions": {
+        "target": "es5",
+        "outDir": "dist"
+    }
+}
