@@ -1,0 +1,6 @@
+{
+    "compilerOptions": {
+        "rootDir": "./src", // directory to store all our files
+        "outDir": "./dist" // all our js files that will be transpiled
+    }
+}
