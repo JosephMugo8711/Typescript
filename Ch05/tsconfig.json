@@ -4,3 +4,5 @@
         "outDir": "./dist" // all our js files that will be transpiled
     }
 }
+
+// configuration file to typescript
