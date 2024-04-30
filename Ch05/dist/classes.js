@@ -46,5 +46,5 @@ var Admin = /** @class */ (function (_super) {
 }(User));
 // Create an instance of the 'User' class
 var newUser = new User(1, "Monster", "lessons", "Monster", "Lessons");
-//console.log(newUser.firstName);
+// console.log(newUser.firstName); // Error: Property 'firstName' is protected and only accessible within class 'User' and its subclasses
 console.log(User.maxAge);

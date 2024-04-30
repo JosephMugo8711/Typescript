@@ -15,11 +15,12 @@ class User implements UserInterface {
     private lastName: string;             // Accessible only within the class
     readonly unchangableName: string;     // Read-only property, can't be modified after initialization
     static readonly maxAge = 50;          // Static property, shared across all instances of the class
+
     // Implement properties from the interface
     // No need to redeclare 'id' here since it's already declared in the interface
-    // id: number;
     name: string;
     surname: string;
+    id: number;
 
     // Constructor to initialize class properties
     constructor(id: number, firstName: string, lastName: string, name: string, surname: string) {
@@ -42,18 +43,14 @@ class Admin extends User {
 
     setEditor(editor: string): void {
         this.editor = editor
-
     }
 
     getEditor(): string {
         return this.editor
     }
-
 }
 
 // Create an instance of the 'User' class
 const newUser = new User(1, "Monster", "lessons", "Monster", "Lessons");
-//console.log(newUser.firstName);
+// console.log(newUser.firstName); // Error: Property 'firstName' is protected and only accessible within class 'User' and its subclasses
 console.log(User.maxAge);
-
-
