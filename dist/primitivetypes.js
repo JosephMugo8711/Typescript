@@ -15,5 +15,10 @@ g();
 function h() {
     throw new Error("This function will never return.");
 }
+let x;
+x = false;
+let result = null;
+result = 0;
 let result1 = undefined;
+result1 = 10;
 console.log(result1);

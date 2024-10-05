@@ -5,4 +5,6 @@ declare let e: null;
 declare let f: undefined;
 declare function g(): void;
 declare function h(): never;
+declare let x: boolean;
+declare let result: any;
 declare let result1: number | undefined;
