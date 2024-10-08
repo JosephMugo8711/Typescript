@@ -34,6 +34,7 @@ var Direction;
     Direction["Left"] = "LEFT";
     Direction["Right"] = "RIGHT";
 })(Direction || (Direction = {}));
+var value;
 var Description;
 (function (Description) {
     Description["SmallText"] = "sub zero mkuu";

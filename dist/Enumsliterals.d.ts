@@ -13,6 +13,7 @@ declare enum Direction {
     Left = "LEFT",
     Right = "RIGHT"
 }
+declare var value: Direction;
 declare enum Description {
     SmallText = "sub zero mkuu"
 }

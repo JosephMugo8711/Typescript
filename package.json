@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsc && node dist/Enumsliterals.js"
+    "dev": "tsc && node dist/anyunknowntypecasts.js"
   },
   "keywords": [],
   "author": "",
