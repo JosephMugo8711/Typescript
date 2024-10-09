@@ -17,3 +17,19 @@ function callFunc(func, parma1, param2) {
     func(parma1, param2);
 }
 callFunc(makeName, "Rev", "Jowamu");
+function mul(x, y) {
+    return x * y;
+}
+function div(x, y) {
+    return x / y;
+}
+function applyFunc(funcs, values) {
+    const results = [];
+    for (let i = 0; i < funcs.length; i++) {
+        const args = values[i];
+        const result = funcs[i](args[0], args[1]);
+        results.push();
+    }
+    return results;
+}
+applyFunc([mul, div], [[1, 2], [4, 5]]);
