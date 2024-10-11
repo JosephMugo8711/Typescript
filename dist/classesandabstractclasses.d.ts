@@ -1,6 +1,11 @@
 declare class Human {
-    name: string;
+    protected name: string;
     constructor(name: string);
     greet(): void;
+    getName(): string;
+    setName(name: string): void;
 }
-declare const pi: Human;
+declare class Employee1 extends Human {
+    callMe(): void;
+}
+declare const p1: Human;

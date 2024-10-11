@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsc && node dist/interfaces.js"
+    "dev": "tsc && node dist/classesandabstractclasses.js"
   },
   "keywords": [],
   "author": "",
