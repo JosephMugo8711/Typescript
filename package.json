@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsc && node dist/typeguards.js"
+    "dev": "tsc && node dist/importexport.js"
   },
   "keywords": [],
   "author": "",
